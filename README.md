@@ -1,2 +1,4 @@
-# bcore.weixin
-a weixin mini-server of bcore
+# bcore.wechat
+
+a wechat mini-server of bcore
+

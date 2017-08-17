@@ -1,0 +1,38 @@
+{
+    "name": "bcore.wechat",
+    "version": "1.0.0",
+    "description": "a wechat mini-server of bcore",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/buns-li/bcore.wechat.git"
+    },
+    "keywords": [
+        "bcore",
+        "wechat",
+        "weixin",
+        "pay"
+    ],
+    "engines": {
+        "node": ">=7.10.0"
+    },
+    "author": {
+        "name": "buns_zpli",
+        "email": "zpli_buns@126.com"
+    },
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/buns-li/bcore.wechat/issues"
+    },
+    "homepage": "https://github.com/buns-li/bcore.wechat#readme",
+    "dependencies": {
+        "request": "^2.81.0",
+        "xml2js": "^0.4.18"
+    }
+}
