@@ -1,14 +1,16 @@
 'use strict'
 
-const bcore = require('bcore')
+const wechats = {}
 
-const Wechat = require('./lib/wechat').Wechat
-
-const Store = require('./lib/store/store')
+const bcore = require('bcore'),
+    Wechat = require('./lib/wechat'),
+    Store = require('./lib/store/store')
 
 require('./lib/wechat-modules')
 
-const wechats = {}
+exports.Store = Store
+
+exports.on = Wechat.on
 
 /**
  * ```js

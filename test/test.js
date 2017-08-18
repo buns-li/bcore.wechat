@@ -41,7 +41,7 @@ describe('bcore.wechat BDD Test', () => {
             })
     })
 
-    it('should return 200 OK for user.list ', done => {
+    it.skip('should return 200 OK for user.list ', done => {
         obj.getUsers()
             .then(data => {
 
@@ -58,7 +58,7 @@ describe('bcore.wechat BDD Test', () => {
             })
     })
 
-    it('should return 200 OK for changeWechat.user.list ', done => {
+    it.skip('should return 200 OK for changeWechat.user.list ', done => {
         obj.changeWechatGetUsers()
             .then(data => {
 
